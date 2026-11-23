@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galerie des Recettes 📸</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="shape shape-1"></div>
+    <div class="shape shape-2"></div>
+
+    <div class="main-card">
+        <header class="header">
+            <div class="logo-badge">✨ Photos & Inspo</div>
+            <h1>Galerie Gourmande 📸</h1>
+            <p class="subtitle">Cliquez sur une image pour l'agrandir</p>
+            
+            <a href="index.html" class="back-link">← Retour au carnet de recettes</a>
+        </header>
+
+        <div class="gallery-grid">
+
+            <div class="gallery-item">
+                <a href="#img1">
+                    <img src="https://images.unsplash.com/photo-1553530666-ba11a7da3888?w=500&auto=format&fit=crop" alt="Pink Strawberry Latte">
+                    <div class="gallery-overlay">
+                        <span>Pink Strawberry Latte 🍓</span>
+                    </div>
+                </a>
+            </div>
+
+            <div class="gallery-item">
+                <a href="#img2">
+                    <img src="https://images.unsplash.com/photo-1513558161293-cdaf765ed2fd?w=500&auto=format&fit=crop" alt="Limonade Mangue">
+                    <div class="gallery-overlay">
+                        <span>Limonade Mango Crisp 🥭</span>
+                    </div>
+                </a>
+            </div>
+
+            <div class="gallery-item">
+                <a href="#img3">
+                    <img src="https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445?w=500&auto=format&fit=crop" alt="Fluffy Pancakes">
+                    <div class="gallery-overlay">
+                        <span>Fluffy Pancakes 🥞</span>
+                    </div>
+                </a>
+            </div>
+
+            <div class="gallery-item">
+                <a href="#img4">
+                    <img src="https://images.unsplash.com/photo-1499636136210-6f4ee915583e?w=500&auto=format&fit=crop" alt="Cookies Chocolat">
+                    <div class="gallery-overlay">
+                        <span>Cookies Cœur Fondant 🍪</span>
+                    </div>
+                </a>
+            </div>
+
+            <div class="gallery-item">
+                <a href="#img5">
+                    <img src="https://images.unsplash.com/photo-1525351484163-7529414344d8?w=500&auto=format&fit=crop" alt="Avocado Toast">
+                    <div class="gallery-overlay">
+                        <span>Avocado Toast & Œuf 🥑</span>
+                    </div>
+                </a>
+            </div>
+
+            <div class="gallery-item">
+                <a href="#img6">
+                    <img src="https://images.unsplash.com/photo-1534422298391-e4f8c172dddb?w=500&auto=format&fit=crop" alt="Club Sandwich">
+                    <div class="gallery-overlay">
+                        <span>Club Mozza Pesto 🧀</span>
+                    </div>
+                </a>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Modales d'agrandissement d'image (Sans JS) -->
+    <div id="img1" class="lightbox">
+        <a href="#" class="lightbox-close">&times;</a>
+        <div class="lightbox-content">
+            <img src="https://images.unsplash.com/photo-1553530666-ba11a7da3888?w=900&auto=format&fit=crop" alt="Pink Strawberry Latte">
+            <h3>Pink Strawberry Latte 🍓</h3>
+        </div>
+    </div>
+
+    <div id="img2" class="lightbox">
+        <a href="#" class="lightbox-close">&times;</a>
+        <div class="lightbox-content">
+            <img src="https://images.unsplash.com/photo-1513558161293-cdaf765ed2fd?w=900&auto=format&fit=crop" alt="Limonade Mangue">
+            <h3>Limonade Mango Crisp 🥭</h3>
+        </div>
+    </div>
+
+    <div id="img3" class="lightbox">
+        <a href="#" class="lightbox-close">&times;</a>
+        <div class="lightbox-content">
+            <img src="https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445?w=900&auto=format&fit=crop" alt="Fluffy Pancakes">
+            <h3>Fluffy Pancakes 🥞</h3>
+        </div>
+    </div>
+
+    <div id="img4" class="lightbox">
+        <a href="#" class="lightbox-close">&times;</a>
+        <div class="lightbox-content">
+            <img src="https://images.unsplash.com/photo-1499636136210-6f4ee915583e?w=900&auto=format&fit=crop" alt="Cookies Chocolat">
+            <h3>Cookies Cœur Fondant 🍪</h3>
+        </div>
+    </div>
+
+    <div id="img5" class="lightbox">
+        <a href="#" class="lightbox-close">&times;</a>
+        <div class="lightbox-content">
+            <img src="https://images.unsplash.com/photo-1525351484163-7529414344d8?w=900&auto=format&fit=crop" alt="Avocado Toast">
+            <h3>Avocado Toast & Œuf Poché 🥑</h3>
+        </div>
+    </div>
+
+    <div id="img6" class="lightbox">
+        <a href="#" class="lightbox-close">&times;</a>
+        <div class="lightbox-content">
+            <img src="https://images.unsplash.com/photo-1534422298391-e4f8c172dddb?w=900&auto=format&fit=crop" alt="Club Sandwich">
+            <h3>Club Sandwich Mozza-Pesto 🧀</h3>
+        </div>
+    </div>
+
+</body>
+</html>
